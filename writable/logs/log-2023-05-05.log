@@ -1,0 +1,707 @@
+INFO - 2023-05-05 08:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 08:31:49 --> Undefined variable $cat_records
+in APPPATH\Views\dashboard\category\update-category-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\category\update-category-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/update-category-admin', [], true)
+ 5 APPPATH\Controllers\Category.php(114): view('dashboard/category/update-category-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->updateCategoryAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 08:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 08:31:51 --> Undefined variable $cat_records
+in APPPATH\Views\dashboard\category\update-category-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\category\update-category-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/update-category-admin', [], true)
+ 5 APPPATH\Controllers\Category.php(114): view('dashboard/category/update-category-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->updateCategoryAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 08:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 08:32:22 --> Undefined variable $cat_records
+in APPPATH\Views\dashboard\category\update-category-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\category\update-category-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/update-category-admin', [], true)
+ 5 APPPATH\Controllers\Category.php(69): view('dashboard/category/update-category-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->editCategoryAdmin('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 08:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 08:34:19 --> Undefined variable $cat_records
+in APPPATH\Views\dashboard\category\update-category-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\category\update-category-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/update-category-admin', [], true)
+ 5 APPPATH\Controllers\Category.php(114): view('dashboard/category/update-category-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->updateCategoryAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 08:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 08:57:17 --> Undefined variable $cat_records
+in APPPATH\Views\dashboard\category\update-category-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\category\update-category-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/update-category-admin', [], true)
+ 5 APPPATH\Controllers\Category.php(114): view('dashboard/category/update-category-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->updateCategoryAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 08:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 08:57:18 --> Undefined variable $cat_records
+in APPPATH\Views\dashboard\category\update-category-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\category\update-category-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cat_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\update-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/update-category-admin', [], true)
+ 5 APPPATH\Controllers\Category.php(114): view('dashboard/category/update-category-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->updateCategoryAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 08:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 08:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 08:57:49 --> Undefined variable $category_records
+in APPPATH\Views\dashboard\category\view-category-admin.php on line 27.
+ 1 APPPATH\Views\dashboard\category\view-category-admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\view-category-admin.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\view-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/view-category-admin', [], true)
+ 5 APPPATH\Controllers\Category.php(69): view('dashboard/category/view-category-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->editCategoryAdmin('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 09:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 09:42:14 --> Undefined variable $pro_records
+in APPPATH\Views\dashboard\product\update-product-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\product\update-product-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/update-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(171): view('dashboard/product/update-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->updateProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 09:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 09:42:15 --> Undefined variable $pro_records
+in APPPATH\Views\dashboard\product\update-product-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\product\update-product-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/update-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(171): view('dashboard/product/update-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->updateProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 09:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 09:42:29 --> Undefined variable $category_records
+in APPPATH\Views\dashboard\category\view-category-admin.php on line 27.
+ 1 APPPATH\Views\dashboard\category\view-category-admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\view-category-admin.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\view-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/view-category-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(17): view('dashboard/category/view-category-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->viewProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 09:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 09:43:28 --> Undefined variable $category_records
+in APPPATH\Views\dashboard\category\view-category-admin.php on line 27.
+ 1 APPPATH\Views\dashboard\category\view-category-admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\view-category-admin.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\category\\view-category-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/category/view-category-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(17): view('dashboard/category/view-category-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->viewProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 09:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 09:49:03 --> Undefined array key "category_name"
+in APPPATH\Views\dashboard\product\view-product-admin.php on line 37.
+ 1 APPPATH\Views\dashboard\product\view-product-admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_name"', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\view-product-admin.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\view-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/view-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(17): view('dashboard/product/view-product-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->viewProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 09:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 09:50:32 --> Undefined array key "amount"
+in APPPATH\Views\dashboard\product\view-product-admin.php on line 39.
+ 1 APPPATH\Views\dashboard\product\view-product-admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\view-product-admin.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\view-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/view-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(17): view('dashboard/product/view-product-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->viewProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 09:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 09:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 10:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 10:29:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\dashboard\product\update-product-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\product\update-product-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/update-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(98): view('dashboard/product/update-product-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->editProductadmin('7')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 10:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-05 11:01:21 --> mysqli_sql_exception: Unknown column 'product_type' in 'where clause' in C:\laragon\www\trust-track\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\trust-track\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\trust-track\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\trust-track\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\trust-track\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\trust-track\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\trust-track\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\trust-track\app\Controllers\Product.php(100): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\trust-track\system\CodeIgniter.php(934): App\Controllers\Product->editProductadmin('1')
+#8 C:\laragon\www\trust-track\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\laragon\www\trust-track\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\trust-track\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\trust-track\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-05-05 11:01:22 --> Unknown column 'product_type' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category_tb`
+WHERE `product_type` = \'Lifestock\'
+OR `product_type` = \'Fish\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category_tb`
+WHERE `product_type` = \'Lifestock\'
+OR `product_type` = \'Fish\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category_tb`
+WHERE `product_type` = \'Lifestock\'
+OR `product_type` = \'Fish\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category_tb`
+WHERE `product_type` = :product_type:
+OR `product_type` = :product_type.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Product.php(100): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->editProductadmin('1')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:28:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 52.
+ 1 APPPATH\Controllers\Login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\trust-track\\app\\Controllers\\Login.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:37:26 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(93): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:37:27 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(93): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:38:09 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:47:46 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:50:36 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:50:40 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:54:38 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 11:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:54:54 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:54:55 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:55:57 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:56:00 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:56:50 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:58:19 --> Array to string conversion
+in APPPATH\Controllers\Product.php on line 26.
+ 1 APPPATH\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\trust-track\\app\\Controllers\\Product.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:59:01 --> Array to string conversion
+in APPPATH\Controllers\Product.php on line 26.
+ 1 APPPATH\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\trust-track\\app\\Controllers\\Product.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:59:26 --> Array to string conversion
+in APPPATH\Controllers\Product.php on line 26.
+ 1 APPPATH\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\trust-track\\app\\Controllers\\Product.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:59:30 --> Array to string conversion
+in APPPATH\Controllers\Product.php on line 26.
+ 1 APPPATH\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\trust-track\\app\\Controllers\\Product.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 11:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 11:59:42 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 12:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 12:00:21 --> Undefined variable $category_product_records
+in APPPATH\Views\dashboard\product\add-product-admin.php on line 85.
+ 1 APPPATH\Views\dashboard\product\add-product-admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_product_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\add-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/add-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(94): view('dashboard/product/add-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->addProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+CRITICAL - 2023-05-05 12:11:48 --> syntax error, unexpected token ",", expecting ")"
+in APPPATH\Controllers\Product.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\trust-track\\app\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 12:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 12:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 12:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 12:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 12:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 12:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 12:17:51 --> Undefined variable $pro_records
+in APPPATH\Views\dashboard\product\update-product-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\product\update-product-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/update-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(180): view('dashboard/product/update-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->updateProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 12:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 12:17:52 --> Undefined variable $pro_records
+in APPPATH\Views\dashboard\product\update-product-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\product\update-product-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/update-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(180): view('dashboard/product/update-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->updateProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 12:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 12:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 20:11:58 --> Undefined variable $pro_records
+in APPPATH\Views\dashboard\product\update-product-admin.php on line 28.
+ 1 APPPATH\Views\dashboard\product\update-product-admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro_records', 'C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\trust-track\\app\\Views\\dashboard\\product\\update-product-admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/product/update-product-admin', [], true)
+ 5 APPPATH\Controllers\Product.php(180): view('dashboard/product/update-product-admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->updateProductAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 20:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 20:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 21:13:49 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\DashboardAdmin/$1::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\DashboardAdmin/$1::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard-admin/24')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard-admin/24')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+CRITICAL - 2023-05-05 21:15:10 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\DashboardAdmin/$1::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\DashboardAdmin/$1::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard-admin/24')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard-admin/24')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+CRITICAL - 2023-05-05 21:15:11 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\DashboardAdmin/$1::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\DashboardAdmin/$1::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard-admin/24')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard-admin/24')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 21:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 21:15:21 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\DashboardAdmin/$1::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\DashboardAdmin/$1::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard-admin/24')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard-admin/24')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+CRITICAL - 2023-05-05 21:25:52 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\DashboardAdmin/$1::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\DashboardAdmin/$1::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard-admin/24')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard-admin/24')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+CRITICAL - 2023-05-05 21:25:54 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\DashboardAdmin/$1::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\DashboardAdmin/$1::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard-admin/24')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard-admin/24')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+CRITICAL - 2023-05-05 21:31:01 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\DashboardAdmin/$1::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\DashboardAdmin/$1::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('dashboard-admin/24')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('dashboard-admin/24')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\trust-track\\public\\index.php')
+INFO - 2023-05-05 21:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 21:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

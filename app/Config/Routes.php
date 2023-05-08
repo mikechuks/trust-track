@@ -33,12 +33,27 @@ $routes->get('/', 'IndexPage::index');
 $routes->get('about', 'About::index');
 $routes->get('blog', 'Blog::index');
 $routes->get('contact-us', 'ContactUs::index');
-$routes->get('product', 'Product::index');
 $routes->get('testimonial', 'Testimonial::index');
+
 $routes->match(['get', 'post'], 'login', 'Login::index');
 $routes->match(['get', 'post'], 'register', 'Register::index');
-$routes->get('dashboard', 'dashboard::index');
+$routes->get('dashboard/(:num)', 'Dashboard::index/$1');
+$routes->get('dashboard-admin/(:num)', 'DashboardAdmin::index/$1');
 
+$routes->match(['get', 'post'], 'view-product-admin', 'ProductAdmin::viewProduct');
+$routes->match(['get', 'post'], 'add-product-admin', 'ProductAdmin::addProductAdmin');
+$routes->match(['get', 'post'], 'update-product-admin', 'ProductAdmin::updateProductAdmin');
+$routes->match(['get', 'post'], 'edit-product-admin/(:num)', 'ProductAdmin::editProductAdmin/$1');
+
+$routes->match(['get', 'post'], 'view-category-admin', 'CategoryAdmin::viewCategory');
+$routes->match(['get', 'post'], 'add-category-admin', 'CategoryAdmin::addCategoryAdmin');
+$routes->match(['get', 'post'], 'update-category-admin',  'CategoryAdmin::updateCategoryAdmin');
+$routes->match(['get', 'post'], 'edit-category-admin/(:num)', 'CategoryAdmin::editCategoryAdmin/$1');
+
+$routes->match(['get', 'post'], 'view-all-product', 'Product::viewAllProduct');
+$routes->match(['get', 'post'], 'view-specific-product', 'Product::viewSpecificProduct');
+
+$routes->match(['get', 'post'], 'view-cart-details', 'ShopCart::viewCart');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

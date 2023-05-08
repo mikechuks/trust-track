@@ -45,7 +45,7 @@
                         <input type="text" placeholder="Enter your full name" name="name" value="<?= set_value('name') ?>" />
                         <input type="email" placeholder="Enter your email address" name="email" value="<?= set_value('email') ?>" />
                         <input type="password" placeholder="Enter your password" name="password" value="<?= set_value('password') ?>" />
-                        <input type="password" placeholder="Enter confirmation password" name="con-pass" value="<?= set_value('con-pass') ?>" required/>
+                        <input type="password" placeholder="Enter confirmation password" name="con-pass" value="<?= set_value('con-pass') ?>"/>
                         <input type="text" placeholder="Enter your address" name="address" value="<?= set_value('address') ?>" />
                         <input type="text" placeholder="Enter your city" name="city" value="<?= set_value('city') ?>" />
                         <input type="text" placeholder="Enter your state" name="state" value="<?= set_value('state') ?>" />

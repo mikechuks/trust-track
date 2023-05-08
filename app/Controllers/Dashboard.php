@@ -1,11 +1,15 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\UserModel;
 
 class Dashboard extends BaseController
 {
-    public function index()
+    public function index($id)
     {
-        return view('dashboard/dashboard-profile');
+        $userModel = new UserModel();
+        $data['user_records'] = $userModel->find($id); 
+
+        return view('dashboard/dashboard-profile', $data);
     }
 }

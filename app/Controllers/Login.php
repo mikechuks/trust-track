@@ -24,9 +24,11 @@ class Login extends BaseController
                 ]
                 ],
             "password" => [
-                "rules" => "required",
+                "rules" => 'required|min_length[5]|max_length[12]',
                 "errors" => [
-                    "required" => "*Password type is required"
+                    "required" => "*Password type is required",
+                    "min_length" => "*Password must not be less than 5 characters long",
+                    "max_length" => "*Password must not be more than 12 characters long"
                 ]
                 ],
         ]);
@@ -53,13 +55,15 @@ class Login extends BaseController
         {
         $this->session->setFlashdata("errormessage", "Incorrect Password");
         return redirect()->to(base_url('login'))->withInput();
-        }else
-        {
+        }else if(($checkPassword) && ($userInfo['status'] == '1')){
+            $this->setUserSession($userInfo);
+            return redirect()->to(base_url('dashboard-admin/'.$userInfo['user_id']))->withInput();
+        }else{
         // Stroing session values
         $this->setUserSession($userInfo);
 
         // Redirecting to dashboard after login
-        return redirect()->to(base_url('dashboard'));
+        return redirect()->to(base_url('dashboard/'.$userInfo['user_id']));
         }
 
     }

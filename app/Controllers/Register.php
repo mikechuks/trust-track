@@ -23,33 +23,50 @@ class Register extends BaseController
                 ]
                 ],
             "email" => [
-                "rules" => "required",
+                "rules" => 'required|valid_email|is_unique[shopreg.email]',
                 "errors" => [
-                    "required" => "*email type is required"
+                    "required" => "*email type is required",
+                    'valid_email' => '*The email is not valid',
+                    'is_unique' => '*Email has already been taken'
                 ]
                 ],
             "password" => [
-                "rules" => "required",
+                "rules" => 'required|min_length[5]|max_length[12]|is_unique[shopreg.password]',
                 "errors" => [
-                    "required" => "*Password type is required"
+                    "required" => "*Password type is required",
+                    "min_length" => "*Password must not be less than 5 characters long",
+                    "max_length" => "*Password must not be more than 12 characters long",
+                    'is_unique' => '*Password has already been taken'
+                ]
+                ],
+            "con-pass" => [
+                "rules" => 'required|min_length[5]|max_length[12]|matches[password]',
+                "errors" => [
+                    "required" => "*Password type is required",
+                    "min_length" => "*Password must not be less than 5 characters long",
+                    "max_length" => "*Password must not be more than 12 characters long",
+                    "matches" => "*Confirm Password must match the password"
                 ]
                 ],
             "city" => [
-                "rules" => "required",
+                "rules" => "required|max_length[12]",
                 "errors" => [
-                    "required" => "*City type is required"
+                    "required" => "*City type is required",
+                    "max_length" => "*City must not be more than 12 characters long",
                 ]
                 ],
             "state" => [
-                "rules" => "required",
+                "rules" => "required|max_length[12]",
                 "errors" => [
-                    "required" => "*State type is required"
+                    "required" => "*State type is required",
+                    "max_length" => "*State must not be more than 12 characters long",
                 ]
                 ],
             "zip" => [
-                "rules" => "required",
+                "rules" => "required|max_length[12]",
                 "errors" => [
-                    "required" => "*Zip Code type is required"
+                    "required" => "*Zip Code type is required",
+                    "max_length" => "*Zip must not be more than 12 characters long",
                 ]
                 ],
         ]);
