@@ -34,26 +34,33 @@ $routes->get('about', 'About::index');
 $routes->get('blog', 'Blog::index');
 $routes->get('contact-us', 'ContactUs::index');
 $routes->get('testimonial', 'Testimonial::index');
+$routes->match(['get', 'post'], 'general-product', 'HomeProduct::index');
+$routes->match(['get', 'post'], 'buy-now/(:num)', 'HomeProduct::buyNow/$1');
 
 $routes->match(['get', 'post'], 'login', 'Login::index');
+$routes->match(['get', 'post'], 'logout', 'Login::logout');
 $routes->match(['get', 'post'], 'register', 'Register::index');
-$routes->get('dashboard/(:num)', 'Dashboard::index/$1');
-$routes->get('dashboard-admin/(:num)', 'DashboardAdmin::index/$1');
+$routes->get('dashboard/(:num)', 'Dashboard::index/$1', ['filter' => 'authGuard']);
+$routes->get('dashboard-admin/(:num)', 'DashboardAdmin::index/$1', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'edit-dashboard/(:num)', 'Dashboard::editSetting/$1', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'settings', 'Dashboard::Settings', ['filter' => 'authGuard']);
 
-$routes->match(['get', 'post'], 'view-product-admin', 'ProductAdmin::viewProduct');
-$routes->match(['get', 'post'], 'add-product-admin', 'ProductAdmin::addProductAdmin');
-$routes->match(['get', 'post'], 'update-product-admin', 'ProductAdmin::updateProductAdmin');
-$routes->match(['get', 'post'], 'edit-product-admin/(:num)', 'ProductAdmin::editProductAdmin/$1');
+$routes->match(['get', 'post'], 'view-product-admin', 'ProductAdmin::viewProduct', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'add-product-admin', 'ProductAdmin::addProductAdmin', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'update-product-admin', 'ProductAdmin::updateProductAdmin', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'edit-product-admin/(:num)', 'ProductAdmin::editProductAdmin/$1', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'delete-product-admin/(:num)', 'ProductAdmin::deleteProductAdmin/$1', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'final-delete-product-admin', 'ProductAdmin::finalDeleteadmin', ['filter' => 'authGuard']);
 
-$routes->match(['get', 'post'], 'view-category-admin', 'CategoryAdmin::viewCategory');
-$routes->match(['get', 'post'], 'add-category-admin', 'CategoryAdmin::addCategoryAdmin');
-$routes->match(['get', 'post'], 'update-category-admin',  'CategoryAdmin::updateCategoryAdmin');
-$routes->match(['get', 'post'], 'edit-category-admin/(:num)', 'CategoryAdmin::editCategoryAdmin/$1');
+$routes->match(['get', 'post'], 'view-category-admin', 'CategoryAdmin::viewCategory', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'add-category-admin', 'CategoryAdmin::addCategoryAdmin', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'update-category-admin',  'CategoryAdmin::updateCategoryAdmin', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'edit-category-admin/(:num)', 'CategoryAdmin::editCategoryAdmin/$1', ['filter' => 'authGuard']);
 
-$routes->match(['get', 'post'], 'view-all-product', 'Product::viewAllProduct');
-$routes->match(['get', 'post'], 'view-specific-product', 'Product::viewSpecificProduct');
+$routes->match(['get', 'post'], 'view-all-product/(:num)/(:num)', 'Product::viewAllProduct/$1/$2', ['filter' => 'authGuard']);
+$routes->match(['get', 'post'], 'view-specific-product/(:num)/(:num)', 'Product::viewSpecificProduct/$1/$2', ['filter' => 'authGuard']);
 
-$routes->match(['get', 'post'], 'view-cart-details', 'ShopCart::viewCart');
+$routes->match(['get', 'post'], 'view-cart-details', 'ShopCart::viewCart', ['filter' => 'authGuard']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -45,7 +45,7 @@
                            </ul>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="<?php echo base_url() ?>product">Products</a>
+                           <a class="nav-link" href="<?php echo base_url() ?>general-product">Products</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="<?php echo base_url() ?>blog">Blog</a>
@@ -121,12 +121,9 @@
          </header>
          <!-- end header section -->
          <!-- slider section -->
-         <section class="slider_section ">
-            <div class="slider_bg_box">
-               <img src="images/slider-bg.jpg" alt="">
-            </div>
+         <section class="slider_section" style="background-color:#333333;">
             <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
+               <div class="carousel-inner" style="display:flex; flex-wrap:wrap;">
                   <div class="carousel-item active">
                      <div class="container ">
                         <div class="row">
@@ -202,7 +199,10 @@
                         </div>
                      </div>
                   </div>
-               </div>
+                  <div class="" style="display:flex; justify-content:flex-end; width:100%;">
+                     <img src="images/1.png" style="width:30em; height:30em;" alt="">
+                   </div>
+                  </div>
                <div class="container">
                   <ol class="carousel-indicators">
                      <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>

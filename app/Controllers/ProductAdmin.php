@@ -3,17 +3,18 @@
 namespace App\Controllers;
 use App\Models\ProductModel;
 use App\Models\CategoryModel;
+use App\Models\DeleteProductModel;
 
 class ProductAdmin extends BaseController
 {
      public function __construct(){
-        helper(['url', 'formchecker', 'form','']);
+        helper(['url', 'formchecker', 'form','file']);
     } 
     public function viewProduct()
     {
         $productModel = new ProductModel();
    
-        $data['pro_records'] = $productModel->findAll(); 
+        $data['pro_records'] = $productModel->where('count', 1)->findAll(); 
 
         return view('dashboard/product-admin/view-product-admin', $data);
     }
@@ -80,11 +81,12 @@ class ProductAdmin extends BaseController
             $query = "";
             if($this->request->getFileMultiple("pro-image")){
                 $proImg = $this->request->getFileMultiple("pro-image");
+                $count = 1;
+                $rand = random_int(1, 1000000000);
                 foreach($proImg as $proImgs){
                     if($proImgs->isValid() && !$proImgs->hasMoved()){
                         $newName = $proImgs->getRandomName();
-                        $proImgs->move(WRITEPATH.'uploads', $newName);
-                        $mulFiles = file_get_contents(WRITEPATH.'uploads/'. $newName);
+                        $proImgs->move('uploads/', $newName);
                         $dbdata = [
                             'product_name' => $this->request->getVar("p-name"),
                             'category_id' => $this->request->getVar('category-id'),
@@ -92,9 +94,12 @@ class ProductAdmin extends BaseController
                             'quantity' => $this->request->getVar("quantity"),
                             'details' => $this->request->getVar("details"),
                             'personal_id' => $this->session->get("user-id"),
-                            'image' => $mulFiles
+                            'count' => $count,
+                            'rand_pro' => $rand,
+                            'image' => $newName
                         ];
                         $query = $productModel->save($dbdata);
+                        $count++;
                     }
                 }
             }
@@ -205,4 +210,37 @@ public function editProductadmin($id)
         return view('dashboard/product-admin/update-product-admin');
     }
 }
+
+public function deleteProductadmin($id)
+{
+    $productModel = new ProductModel();
+    $data['delete_product_records'] = $productModel->where('rand_pro', $id)->findAll();
+
+    return view('dashboard/product-admin/delete-product-admin', $data);
+}
+
+public function finalDeleteadmin()
+{
+    $deleteproductModel = new DeleteProductModel();
+    $imgdel = $deleteproductModel->where('rand_pro',$this->request->getVar('rand-con-id'))->findAll();
+    foreach($imgdel as $completedel){
+        $filepath = './uploads/'.$completedel['image'];
+            if(file_exists($filepath)){
+                unlink($filepath);
+            }
+    }
+    $data = [
+        'rand_pro' => intval($this->request->getVar('rand-con-id'))
+    ];
+    $query = $deleteproductModel->delete($data);
+    if($query === true){
+
+     return redirect()->to(base_url("view-product-admin"));
+   }
+   else{
+      return view('dashboard/product-admin/delete-product-admin', ['errors' => $query->errors()]);  
+   };
+   
+}
+
 }

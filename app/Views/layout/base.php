@@ -45,7 +45,7 @@
                            </ul>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="<?php echo base_url() ?>product">Products</a>
+                           <a class="nav-link" href="<?php echo base_url() ?>general-product">Products</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="<?php echo base_url() ?>blog">Blog</a>

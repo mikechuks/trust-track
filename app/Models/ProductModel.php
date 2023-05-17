@@ -16,7 +16,7 @@ class ProductModel extends Model
     protected $useSoftDeletes = false;
     protected $protectFields  = true;
 
-    protected $allowedFields = ['product_name', 'category_id', 'product_amount',
+    protected $allowedFields = ['product_name', 'category_id', 'product_amount','rand_pro','count',
                                 'quantity', 'details','personal_id','image'];
 
     // Dates

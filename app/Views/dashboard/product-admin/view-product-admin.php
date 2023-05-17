@@ -53,10 +53,11 @@
                                         x-placement="bottom-start"
                                         style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 35px, 0px);">
                                         <a class="dropdown-item" href="'.base_url('edit-product-admin/'.$category_List["product_id"]).'"><i
-                                                class="ti-pencil-alt"></i> Edit</a>                                                           
+                                                class="ti-pencil-alt"></i> Edit</a>   
+                                        <a class="dropdown-item" href="'.base_url('delete-product-admin/'.$category_List["rand_pro"]).'"><i
+                                        class="ti-pencil-alt"></i> Delete</a>                                                          
                                     </div>
                                 </div>
-                        
                         </td>
                     </tr>';
                                     $count++;

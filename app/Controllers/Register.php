@@ -91,7 +91,8 @@ class Register extends BaseController
                 'address' => $this->request->getVar("address"),
                 'city' => $this->request->getVar("city"),
                 'state' => $this->request->getVar("state"),
-                'zip_code' => $this->request->getVar("zip")
+                'zip_code' => $this->request->getVar("zip"),
+                'Active' => 1
             ];
         $query = $userModel->save($dbdata);
 
