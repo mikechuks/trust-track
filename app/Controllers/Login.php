@@ -49,7 +49,7 @@ class Login extends BaseController
                 $password = $this->request->getVar('password');
             
         $userInfo = $userModel->where('name', $name)->first();
-        $checkPassword = Hash::passwordcheck($password, $userInfo['password']);
+        $checkPassword = password_verify($password, $userInfo['password']);
               
         if (!$checkPassword)
         {

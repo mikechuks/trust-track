@@ -87,7 +87,7 @@ class Register extends BaseController
             $dbdata = [
                 'name' => $this->request->getVar("name"),
                 'email' => $this->request->getVar('email'),
-                'password' => Hash::passwordsanitize($password),
+                'password' => password_hash($password, PASSWORD_DEFAULT),
                 'address' => $this->request->getVar("address"),
                 'city' => $this->request->getVar("city"),
                 'state' => $this->request->getVar("state"),

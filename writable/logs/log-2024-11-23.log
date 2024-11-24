@@ -1,0 +1,241 @@
+INFO - 2024-11-23 00:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 00:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 00:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 00:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 00:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 00:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 00:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 01:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 01:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 01:32:07 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Register.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\trust-track\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\public\\index.php')
+INFO - 2024-11-23 01:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 01:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 01:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 01:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 01:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 02:30:19 --> Undefined array key "status"
+in APPPATH\Controllers\Login.php on line 58.
+ 1 APPPATH\Controllers\Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\trust-track\\app\\Controllers\\Login.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\public\\index.php')
+INFO - 2024-11-23 02:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 02:33:20 --> Undefined array key "city"
+in APPPATH\Controllers\Login.php on line 83.
+ 1 APPPATH\Controllers\Login.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'C:\\trust-track\\app\\Controllers\\Login.php', 83)
+ 2 APPPATH\Controllers\Login.php(63): App\Controllers\Login->setUserSession([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\public\\index.php')
+INFO - 2024-11-23 02:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 02:50:45 --> mysqli_sql_exception: Unknown column 'date_created' in 'field list' in C:\trust-track\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\trust-track\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\trust-track\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\trust-track\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\trust-track\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\trust-track\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\trust-track\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\trust-track\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\trust-track\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\trust-track\app\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save(Array)
+#9 C:\trust-track\system\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+#10 C:\trust-track\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+#11 C:\trust-track\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\trust-track\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\trust-track\system\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\...')
+#14 {main}
+CRITICAL - 2024-11-23 02:50:46 --> Unknown column 'date_created' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 94120834, \'1732330245_4165f2116fa183711adb.jpg\', \'2024-11-23 02:50:45\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 94120834, \'1732330245_4165f2116fa183711adb.jpg\', \'2024-11-23 02:50:45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 94120834, \'1732330245_4165f2116fa183711adb.jpg\', \'2024-11-23 02:50:45\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (:product_name:, :category_id:, :product_amount:, :quantity:, :details:, :personal_id:, :count:, :rand_pro:, :image:, :date_created:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\public\\index.php')
+INFO - 2024-11-23 02:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 02:52:26 --> mysqli_sql_exception: Unknown column 'date_created' in 'field list' in C:\trust-track\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\trust-track\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\trust-track\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\trust-track\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\trust-track\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\trust-track\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\trust-track\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\trust-track\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\trust-track\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\trust-track\app\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save(Array)
+#9 C:\trust-track\system\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+#10 C:\trust-track\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+#11 C:\trust-track\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\trust-track\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\trust-track\system\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\...')
+#14 {main}
+CRITICAL - 2024-11-23 02:52:26 --> Unknown column 'date_created' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 314419681, \'1732330346_a8b724c9d6273419fc4b.jpg\', \'2024-11-23 02:52:26\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 314419681, \'1732330346_a8b724c9d6273419fc4b.jpg\', \'2024-11-23 02:52:26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 314419681, \'1732330346_a8b724c9d6273419fc4b.jpg\', \'2024-11-23 02:52:26\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (:product_name:, :category_id:, :product_amount:, :quantity:, :details:, :personal_id:, :count:, :rand_pro:, :image:, :date_created:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\public\\index.php')
+INFO - 2024-11-23 02:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 02:53:25 --> mysqli_sql_exception: Unknown column 'date_created' in 'field list' in C:\trust-track\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\trust-track\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\trust-track\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\trust-track\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\trust-track\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\trust-track\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\trust-track\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\trust-track\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\trust-track\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\trust-track\app\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save(Array)
+#9 C:\trust-track\system\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+#10 C:\trust-track\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+#11 C:\trust-track\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\trust-track\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\trust-track\system\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\...')
+#14 {main}
+CRITICAL - 2024-11-23 02:53:25 --> Unknown column 'date_created' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 764697044, \'1732330405_07f31d6ddb0faefb6f11.jpg\', \'2024-11-23 02:53:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 764697044, \'1732330405_07f31d6ddb0faefb6f11.jpg\', \'2024-11-23 02:53:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 764697044, \'1732330405_07f31d6ddb0faefb6f11.jpg\', \'2024-11-23 02:53:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (:product_name:, :category_id:, :product_amount:, :quantity:, :details:, :personal_id:, :count:, :rand_pro:, :image:, :date_created:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\public\\index.php')
+INFO - 2024-11-23 02:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-23 02:53:36 --> mysqli_sql_exception: Unknown column 'date_created' in 'field list' in C:\trust-track\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\trust-track\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\trust-track\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\trust-track\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\trust-track\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\trust-track\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\trust-track\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\trust-track\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\trust-track\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\trust-track\app\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save(Array)
+#9 C:\trust-track\system\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+#10 C:\trust-track\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+#11 C:\trust-track\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\trust-track\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\trust-track\system\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\...')
+#14 {main}
+CRITICAL - 2024-11-23 02:53:36 --> Unknown column 'date_created' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 729723794, \'1732330416_9dab58333e5336016966.jpg\', \'2024-11-23 02:53:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 729723794, \'1732330416_9dab58333e5336016966.jpg\', \'2024-11-23 02:53:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (\'china Bag\', \'1\', \'1000\', \'2\', \'I am a bag\', \'2\', 1, 729723794, \'1732330416_9dab58333e5336016966.jpg\', \'2024-11-23 02:53:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tb` (`product_name`, `category_id`, `product_amount`, `quantity`, `details`, `personal_id`, `count`, `rand_pro`, `image`, `date_created`) VALUES (:product_name:, :category_id:, :product_amount:, :quantity:, :details:, :personal_id:, :count:, :rand_pro:, :image:, :date_created:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ProductAdmin.php(101): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductAdmin->addProductAdmin()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductAdmin))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\trust-track\\public\\index.php')
+INFO - 2024-11-23 02:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 02:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
